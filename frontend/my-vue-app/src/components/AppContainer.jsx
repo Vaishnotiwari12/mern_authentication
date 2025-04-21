@@ -3,6 +3,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import UserMenu from "./UserMenu";
 
+
 const AppContainer = () => {
   const { user, isLoading } = useAuth();
 
